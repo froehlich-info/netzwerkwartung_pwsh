@@ -1,0 +1,11 @@
+#What to log from client machines in NW
+
+#Cert authorities
+
+Get-ChildItem Cert:\LocalMachine\Root
+
+===
+If you want to sign your own scripts and have them run under a restrictive execution policy, you can use the Set-AuthenticodeSignature cmdlet to sign the scripts with a trusted certificate. You will need to obtain a code signing certificate from a trusted certificate authority or create your own self-signed certificate.
+===
+
+- mounted drives?
